@@ -1,0 +1,52 @@
+.p-top {
+    padding-top: 4rem;
+}
+
+.m-full {
+    margin-top: -80px;
+}
+
+.btn-color {
+    background: linear-gradient(90deg, rgb(48, 207, 106) 0%, rgb(43, 186, 201) 100%);
+}
+
+.footer-color {
+    background: red;
+    background-color: #2d314e;
+}
+
+/* .bg-before::before {
+    content: '';
+    background-image: url('../img/bg-intro-desktop.svg');
+    position: absolute;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    z-index: -1;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+} */
+@media (max-width:991px) {
+    .flex-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: static;
+        flex-direction: column-reverse;
+    }
+
+    .flex-col-1 {
+        background-color: #441818;
+    }
+
+    .flex-col-2 {
+        position: static;
+    }
+
+    .flex-img {
+        position: static;
+        top: 35px;
+    }
+}
