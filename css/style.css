@@ -21,7 +21,8 @@
         background-image: url('../img/bg-intro-desktop.svg');
         position: absolute;
         top: 0;
-        width: 60%;
+        width: 100%;
+        max-width: 60%;
         height: 100%;
         z-index: -1;
         right: 0;
