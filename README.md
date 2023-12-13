@@ -4,7 +4,7 @@ A responsive landing page for Easybank created with Bootstrap 5.3 and additional
 
 ## Screenshots
 
-![Screenshot](img/screenshot1.png)
+![Screenshot](img/screenshot.png)
 
 ## View Live
 
