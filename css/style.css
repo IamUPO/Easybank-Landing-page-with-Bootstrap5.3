@@ -32,10 +32,23 @@
     }
 }
 
-/* .link-active-before {
-    width: max-content;
-    height: 100%;
-    background: red;
+.nav-link {
+    position: relative;
+}
+
+.nav-link:after {
+    content: "";
+    opacity: 0;
+    transform: all 0.2s;
+    height: 4px;
+    width: 100%;
+    background-color: #2fcd76;
     position: absolute;
-    z-index: 1;
-} */
+    bottom: -18px;
+    left: 0;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+}
+
